@@ -14,3 +14,37 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require_tree .
+
+
+//highlight the icon when hovering
+
+$(document).ready(function(){
+    $(".sina_g").hover(
+        function() {$(this).attr("src","/assets/sina_h.png");},
+        function() {$(this).attr("src","/assets/sina_g.png");
+    });
+});
+
+$(document).ready(function(){
+    $(".qq_g").hover(
+        function() {$(this).attr("src","/assets/qq_h.png");},
+        function() {$(this).attr("src","/assets/qq_g.png");
+    });
+});
+
+$(document).ready(function(){
+    $(".qqc_g").hover(
+        function() {$(this).attr("src","/assets/qqc_h.png");},
+        function() {$(this).attr("src","/assets/qqc_g.png");
+    });
+});
+
+$(document).ready(function(){
+    $(".sc_g").hover(
+        function() {$(this).attr("src","/assets/sc_h.png");},
+        function() {$(this).attr("src","/assets/sc_g.png");
+    });
+});
+
+
+
