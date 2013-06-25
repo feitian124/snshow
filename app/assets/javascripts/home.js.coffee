@@ -8,7 +8,7 @@ tinymce.init({
   language : 'zh_CN',
   menubar: false,
   width: 600,
-  height : 600,
+  height : 500,
   plugins: [ "emoticons textcolor link image charmap preview insertdatetime hr wordcount fullscreen" ],
   toolbar1: "bold italic underline strikethrough | alignleft aligncenter alignright alignjustify | 
              forecolor backcolor charmap emoticons | link image ",
