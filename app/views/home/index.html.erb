@@ -1,5 +1,6 @@
-<form method="post" action="somepage">
-  <textarea name="content">
+<form method="post" action="/posts">
+  <textarea name="post[content]">
     <%= render :partial => "editor_holder" %>  
   </textarea>
+  <input type="submit" name="submit" value="submit"/>
 </form>
