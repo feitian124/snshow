@@ -47,4 +47,6 @@ $(document).ready(function(){
 });
 
 
+//Text area placeholder
+var  saying= '千万别迷恋网络游戏，有本事就玩好人生这场大游戏。';
 

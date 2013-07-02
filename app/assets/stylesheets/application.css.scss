@@ -64,6 +64,54 @@
         // background: url(/assets/cwbTxtarea_bg.png) no-repeat 0px 0px;
     }
   }
+  .more_selcet{
+    border-top: 1px #D8D8D8 dashed;
+    padding-top:15px;
+    margin-top: 15px;
+  }
+  .cwbDefaultWrapper{
+    height: 452px;
+    margin-top: 250px;
+    margin-right: 180px;
+    position: absolute;
+    right:0px;
+    top:33px;
+    width:468px;
+    .zhButton{
+      border:none;
+      width:195px;
+      height:47px;
+      margin-left: 0px;
+      background: url(/assets/btn_zh_sprite.png) no-repeat 0px 0px;
+      cursor:pointer;
+    }
+    .zhButton:hover {
+      background-position: 0px -47px;
+    }
+    .cwbConOther dt {
+      float: left;
+      margin-top: 15px;
+
+      .more_selcet {
+        border-top: 1px #D8D8D8 dashed;
+        padding-top: 15px;
+      }
+      .more_selcet dt, .more_selcet dd {
+      padding-bottom: 15px;
+          float: left;
+          width:50%;
+      }
+      .cwbConOther dd input.m_txt {
+      width: 225px;
+      border: 1px #bbb solid;
+      }
+
+      .cboth, .clear, .c {
+      clear: both;
+      }
+    }
+  }
+  
 }
 
 
