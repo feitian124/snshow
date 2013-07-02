@@ -24,7 +24,6 @@
   box-shadow: 0 1px 2px rgba(0,0,0,.15);
 }
 
-
 .header{
   margin-left: 60px;
   height: 201px;
@@ -68,6 +67,33 @@
     border-top: 1px #D8D8D8 dashed;
     padding-top:15px;
     margin-top: 15px;
+    .cwbConOther .text-input {
+      padding: 1px;
+      font-size: 12px;
+      background: white url('/assets/bg-form-field.gif') top left repeat-x;
+      border: 1px solid #D5D5D5;
+      color: #333;
+      border-image: initial;
+      border-radius: 2px;
+    }
+    dt{
+      float: left;
+    }
+    dd{
+      padding-bottom: 15px;
+      margin-bottom: 0px;
+    }
+    dd input{
+      margin-right: 10px;
+    }
+    dd input.m_txt {
+      width: 225px;
+      padding: 1px;
+    }
+    dt,dd{
+        color: #333;
+        font: 12px/20px "microsoft yahei","微软雅黑",Tahoma,Microsoft YaHei,Verdana,Arial,Helvetica,sans-serif,SimSun;
+    }
   }
   .cwbDefaultWrapper{
     height: 452px;
@@ -88,30 +114,7 @@
     .zhButton:hover {
       background-position: 0px -47px;
     }
-    .cwbConOther dt {
-      float: left;
-      margin-top: 15px;
-
-      .more_selcet {
-        border-top: 1px #D8D8D8 dashed;
-        padding-top: 15px;
-      }
-      .more_selcet dt, .more_selcet dd {
-      padding-bottom: 15px;
-          float: left;
-          width:50%;
-      }
-      .cwbConOther dd input.m_txt {
-      width: 225px;
-      border: 1px #bbb solid;
-      }
-
-      .cboth, .clear, .c {
-      clear: both;
-      }
-    }
   }
-  
 }
 
 
