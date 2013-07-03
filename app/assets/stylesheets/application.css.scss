@@ -86,6 +86,11 @@
     dd input{
       margin-right: 10px;
     }
+    dd input.m_rad {
+        margin-left: 10px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
     dd input.m_txt {
       width: 225px;
       padding: 1px;
@@ -94,7 +99,46 @@
         color: #333;
         font: 12px/20px "microsoft yahei","微软雅黑",Tahoma,Microsoft YaHei,Verdana,Arial,Helvetica,sans-serif,SimSun;
     }
+    .b, .strong {
+      font-weight: bold;
+    }
+    label {
+     float:left; 
+     clear:none; 
+     display:block; 
+    }
   }
+
+.share_bg {
+    height: 99px;
+    background: url(/assets/share_bg.png) no-repeat;
+    width: 451px;
+    padding: 4px 0px 0px 21px;
+    margin-top: 20px;
+    p.title {
+      font-size: 16px;
+    }
+    p{
+      margin: 2px 0px;
+      height: 20px;
+    }
+    * {
+       color: #FFF;
+    }
+    .cboth, .clear, .c {
+      font-size: 12px;
+    }
+    #bdshare {
+       margin-left: -4px;
+    }
+}
+#imgUploadCon{
+  margin-top: 10px;
+  dt {
+  margin-top: 8px;
+  float: left;
+}
+} 
   .cwbDefaultWrapper{
     height: 452px;
     margin-top: 250px;
@@ -116,6 +160,16 @@
     }
   }
 }
-
-
+.btm_lable {
+  margin-top: 40px;
+  background: url(/assets/btm_lable.png) no-repeat center;
+  width: 980px;
+  height: 57px;
+}
+.btm_info{
+  background:url(/assets/btm_wanna_cwb.png) no-repeat top center;
+  margin: 0px auto;
+  // width: 980px;
+  height: 268px;
+}
 

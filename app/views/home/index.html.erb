@@ -31,8 +31,64 @@
 			<dl>
 			<dt>内容标题：</dt><dd><input type="text" maxlength="23" id="wbTitle" name="wbTitle" value="" class="m_txt text-input"> (可选填)</dd>
 			<dt>微博昵称：</dt><dd><input type="text" maxlength="30" id="wbName" name="wbName" value="" class="m_txt text-input"> (可选填)</dd>
+			<dt class="b">字体选择：</dt>
+			<dd>
+			<label><input type="radio" name="fFont" value="1" class="m_rad" checked="">普通字体</label>
+			<label><input type="radio" name="fFont" value="2" class="m_rad">文艺字体</label>
+			<label><input type="radio" name="fFont" value="3" class="m_rad">iPhone 字体</label>
+			<label><input type="radio" name="fFont" value="4" class="m_rad">2B手写</label>
+			</dd>
+		</div>
+		<div class="share_bg">
+			<p class="title">嘿，好东西不能私藏噢～，将" <b>长微博工具</b> "分享到：</p>
+			<!-- Baidu Button BEGIN -->
+			    <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare" data="{'url':'http://www.cwbgj.com/?network-share'}">
+			        <span class="bds_more">分享到：</span>
+			        <a class="bds_tsina" title="分享到新浪微博" href="#">新浪微博</a>
+			        <a class="bds_tqq" title="分享到腾讯微博" href="#">腾讯微博</a>
+					<a class="bds_qzone" title="分享到QQ空间" href="#">QQ空间</a>
+			        <a class="bds_renren" title="分享到人人网" href="#">人人网</a>
+					<a class="bds_kaixin001" title="分享到开心网" href="#">开心网</a>
+			    </div>
+			<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=373666" src="http://bdimg.share.baidu.com/static/js/bds_s_v2.js?cdnversion=381348"></script>
+
+			<script type="text/javascript">
+				var bds_config = {'bdText':'发现了一款特别好用的长微博工具，可以很轻松的就可以发布超过140字的长微博内容，你们也可以试试 www.cwbgj.com @长微博工具 >> ','snsKey':{'tsina':'2026748624','tqq':'801005913'},'review':'off'};
+				document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?t=" + new Date().getHours();
+			</script>
+			<div class="cboth">
+			<p>分享给您带来的只有快乐,让你的粉丝也享受" <b>长微博工具</b> "带来的乐趣吧!</p>
+			<p><a href="http://www.jcu.cc/pingjia/5407.html" target="_blank">你也可以点这里给长微博工具反馈意见建议 ^_^</a></p>
+			</div>
+			<!-- Baidu Button END -->
 		</div>	
+		<div id="imgUploadCon">
+				<dt class="b">插入图片：</dt><dd><input type="text" id="imgUploadTxt" name="imgUploadTxt" value="" class="m_txt text-input" readonly="readonly">
+			<input id="btnCancelImg" type="button" value="取消" onclick="swfu.cancelQueue();" disabled="disabled" class="btn-cancel">
+			<span id="imgCanSelectInput"> (支持多图)</span>
+			<span class="input-notification success dnone" id="imgUpload_su">上传成功</span>
+			</dd>
+		</div>
+		<div class="more_selcet more_style">
+			<dl>
+			<dt class="b">风格选择：</dt>
+			<dd>
+			<label><input type="radio" name="bStyle" value="1" class="m_rad" checked="">普通风格</label>
+			<label onclick="tiaoKan(1)"><input type="radio" name="bStyle" value="2" class="m_rad" disabled="disabled">文艺风格</label>
+			<label onclick="tiaoKan(2)"><input type="radio" name="bStyle" value="3" class="m_rad" disabled="disabled">iPhone 风格</label>
+			<label onclick="tiaoKan(2)"><input type="radio" name="bStyle" value="4" class="m_rad" disabled="disabled">2B风格</label>
+			</dd>
+			</dl>
+		</div>
 	</div>
    </div>
 </div>
 
+<div class="btm_lable"></div>
+<div class="btm_info">
+    <div id="book_request" class="dnone">
+    <input type="text" name="" id="input_wanna_book" class="empty" value="">
+    <input type="submit" class="tell_us" value=" ">
+    </div>
+	<div id="book_response"></div>
+</div>
